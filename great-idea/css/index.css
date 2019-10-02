@@ -131,21 +131,34 @@ header nav a{
 
 /** Style for the features and about section, image, and servcies products vision **/
 .content{
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-between;
+	padding-top: 20px;
 }
 
-.feature, .about{
-	display: inline-block;
-	width: 48%;
-	
+.contentpt1{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.contentpt2{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.contentpt3{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
 }
 
 .services, .product, .vision{
-	display: inline-block;
 	width: 33%;
 }
-
 
 /** Style for contact **/
 .contact{

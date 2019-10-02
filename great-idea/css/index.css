@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container{
+	width: 876px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+/* Style for the header */
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+header nav a{
+	margin: 0 25px;
+	color: silver;
+	text-decoration: none;
+}
+
+
+/*Style for the intro section */
+.intro{
+	border-bottom: 1px solid black;
+	margin-top: 50px;
+	margin-bottom: 2em;
+}
+
+.intro .div{
+	display: inline-block;
+	width: 48%;
+}
+.intro .introtext p{
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	border: 1px solid grey;
+	text-align: center;
+	margin-left: 120px;
+	
+}
+
+.introtext h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+.introtext, .circleimg{
+	display: inline-block;
+	width:48%;
+}
+
+.content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.feature, .about{
+	display: inline-block;
+	width: 48%;
+	
+}
+
+.services, .product, .vision{
+	display: inline-block;
+	width: 33%;
+}
+
+
+.contact{
+	margin-top: 50px;
+	border-top: 1px solid black;
+}
+
+footer{
+	text-align: center;
+}

@@ -85,7 +85,6 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 876px;
 	margin: 0 auto;
-	/* border: 1px solid red; */
 }
 /* Style for the header */
 header{
@@ -93,7 +92,6 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 35px;
-	margin-bottom: 35px;
 }
 
 header nav a{
@@ -102,38 +100,36 @@ header nav a{
 	text-decoration: none;
 }
 
-
 /*Style for the intro section */
 .intro{
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
 	border-bottom: 1px solid black;
-	margin-top: 50px;
-	margin-bottom: 2em;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.intro .div{
-	display: inline-block;
-	width: 48%;
-}
-.intro .introtext p{
-	display: inline-block;
+.button1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 150px;
 	height: 30px;
-	border: 1px solid grey;
-	text-align: center;
-	margin-left: 120px;
-	
+	border: 1px solid black;
+	margin-left: 80px;
+	font-size: 15px;
 }
 
-.introtext h1{
+.introtext{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	font-size: 80px;
 	text-align: center;
 }
 
-.introtext, .circleimg{
-	display: inline-block;
-	width:48%;
-}
-
+/** Style for the features and about section, image, and servcies products vision **/
 .content{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
@@ -151,11 +147,14 @@ header nav a{
 }
 
 
+/** Style for contact **/
 .contact{
 	margin-top: 50px;
 	border-top: 1px solid black;
 }
 
+
+/** Style for footer **/
 footer{
 	text-align: center;
 }

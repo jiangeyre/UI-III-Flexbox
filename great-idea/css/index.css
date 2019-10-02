@@ -199,10 +199,11 @@ footer{
 }
 
 .sec1 nav{
-	width: 900px;
+	width: 880px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-left: -10px;
 }
 
 .container2 header nav a{
@@ -211,4 +212,20 @@ footer{
 	text-decoration: none;	
 }
 
+.sec2{
+	padding-bottom: 30px;
+}
 /* styling for services */
+
+.service2{
+	width: 880px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+	line-height: 140%;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+/* Styling for all the toggle boxes */

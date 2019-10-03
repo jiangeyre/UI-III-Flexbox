@@ -231,10 +231,25 @@ footer{
 /* Styling for all the toggle boxes */
 
 #learnmore{
-	box-sizing: border-box;
-	border: 1px solid black;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
 }
 
+.digitaldesign, .uxui, .digimarket, .webdev, .ios, .android{
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 46%;
+	margin: 15px 15px;
+	background-color: whitesmoke;
+	padding-bottom: 30px;
+	line-height: 125%;
+}
 
 
 

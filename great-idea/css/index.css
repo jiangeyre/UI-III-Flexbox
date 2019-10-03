@@ -242,12 +242,18 @@ footer{
 }
 
 .digitaldesign, .uxui, .digimarket, .webdev, .ios, .android{
-	box-sizing: border-box;
+	display: flex;
+	width: 45%;
+	padding: 15px;
 	border: 1px solid black;
-	width: 46%;
-	margin: 15px 15px;
 	background-color: whitesmoke;
 	padding-bottom: 30px;
+	line-height: 125%;
+	margin: 15px 15px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+	box-sizing: border-box;
 	line-height: 125%;
 }
 

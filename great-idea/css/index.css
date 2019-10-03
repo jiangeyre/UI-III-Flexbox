@@ -230,6 +230,10 @@ footer{
 
 /* Styling for all the toggle boxes */
 
+#learnmore{
+	box-sizing: border-box;
+	border: 1px solid black;
+}
 
 
 

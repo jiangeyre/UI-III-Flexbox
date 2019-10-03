@@ -254,10 +254,21 @@ footer{
 
 .box1, .box2, .box3, .box4, .box5, .box6{
 	box-sizing: border-box;
-	line-height: 125%;
+	line-height: 130%;
 }
 
+.box1, .box2, .box3, .box4, .box5, .box6 p{
+	line-height: 130%;
+}
 
+.box1 button, .box2 button, .box3 button, .box4 button, .box5 button, .box6 button{
+	margin-top: 25px;
+	color: black;
+	background-color: white;
+	padding:10px 30px;
+	border-radius: 5px;
+	border-color: black;
+}
 
 /* Styling for the service facts section */
 
